@@ -19,3 +19,34 @@ The name **KnowMe** reflects the platform’s purpose: **Through every post, use
 - 🔐 **Security:** JWT for secure authentication & Cookie-Parser for session handling
 - 📦 **File Handling:** Multer for seamless image uploads
 - 🗄 **Database:** MongoDB for efficient data storage
+
+
+
+
+
+
+
+<footer></footer>
+
+
+
+
+#1. npm init -y
+#2. npm i express mongoose bcrypt jsonwebtoken cookie-parser ejs
+#3.  create models and views folder
+
+
+# we are creating an app in which users can write posts
+# users create karne hai 
+# login and register
+# logout
+# post creation 
+# post like 
+# post delete
+
+
+## Multer 
+set the Form tag with the attribute ->> enctype="multipart/form-data"
+Multer will not work if form is not set to multipart/form-data .
+
+Multer add a body object and a file or files object to the request object. The body object contains the values of the text feilds of the form , the file or files object contains the files uploaded via the form.
